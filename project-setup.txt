@@ -5,6 +5,9 @@ Your system must have:
 NodeJS v0.12 or higher
 Git
 
+---CHANGING BRANCH---
+Run the command "git checkout development" before continuing.
+
 ---INITIALIZATION---
 Perform the following commands while inside the project folder:
 npm install
