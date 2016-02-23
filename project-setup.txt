@@ -1,0 +1,20 @@
+In order to set up the project on a new machine:
+
+---REQUIREMENTS---
+Your system must have:
+NodeJS v0.12 or higher
+Git
+
+---INITIALIZATION---
+Perform the following commands while inside the project folder:
+npm install
+bower install
+
+---RUNNING GULP---
+Perform the following command inside the project folder:
+npm start
+This will run gulp, and the finished site will be created in a folder called 'dist', viewable at http://localhost:8000
+
+---RELEASING TO PRODUCTION---
+To release to production, run the following command:
+npm run build
