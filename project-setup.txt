@@ -7,14 +7,17 @@ Git
 
 ---INITIALIZATION---
 Perform the following commands while inside the project folder:
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
 npm install
 bower install
 
 ---RUNNING GULP---
 Perform the following command inside the project folder:
-npm start
+gulp
 This will run gulp, and the finished site will be created in a folder called 'dist', viewable at http://localhost:8000
 
 ---RELEASING TO PRODUCTION---
 To release to production, run the following command:
-npm run build
+gulp build
